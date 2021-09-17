@@ -20,13 +20,13 @@
   <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="leneg" revision="lineage-18.1-caf-msm8996"/>
 
  <!-- Kernels -->
-  <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_olivewood" remote="tree" revision="11"  clone-depth="1"/>
+  <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_olivewood" remote="tree" revision="eleven"  clone-depth="1"/>
 
  <!-- Device Trees -->
   <project path="device/xiaomi/olivewood" name="device_xiaomi_olivewood" remote="tree" revision="3.9_r1"/>
 
  <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/olivewood"  name="vendor_xiaomi_olivewood" remote="tree" revision="11"/>
+  <project path="vendor/xiaomi/olivewood"  name="vendor_xiaomi_olivewood" remote="tree" revision="eleven"/>
 
 
 </manifest>
