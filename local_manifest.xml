@@ -10,13 +10,13 @@
            fetch="https://github.com/LineageOS" />
 
  <!-- Replacements -->
-  <remove-project name="android_hardware_qcom_display"/>
+  <remove-project name="LineageOS/android_hardware_qcom_display"/>
   
 
-  <remove-project name="android_hardware_qcom_media"/>
+  <remove-project name="LineageOS/android_hardware_qcom_media"/>
   <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="leneg" revision="lineage-18.1-caf-msm8996"/>
 
-  <remove-project name="android_hardware_qcom_audio"/>
+  <remove-project name="LineageOS/android_hardware_qcom_audio"/>
   <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="leneg" revision="lineage-18.1-caf-msm8996"/>
 
  <!-- Kernels -->
