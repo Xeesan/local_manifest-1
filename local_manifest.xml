@@ -5,7 +5,7 @@
            fetch="https://github.com/Chuck439" />
 
   <remote  name="tree"
-           fetch="https://github.com/PixelPlusUI-Devices" />
+           fetch="https://github.com/dotOS-Devices/device_xiaomi_olivewood" />
   
   <remote  name="leneg"
            fetch="https://github.com/LineageOS" />
