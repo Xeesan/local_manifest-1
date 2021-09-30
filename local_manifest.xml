@@ -11,7 +11,7 @@
 
  <!-- Replacements -->
   
-  <remove-project name="android_hardware_qcom_display"/>
+  
   <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="Chuck439" revision="lineage-18.1-caf-msm8996"/>
 
 
