@@ -4,6 +4,6 @@
  <!-- Trees -->
  <project path="device/xiaomi/olivewood" name="ASHISH11948/device_xiaomi_olivewood.git" remote="github" revision="dot11" />
  <project path="vendor/xiaomi/olivewood" name="dotOS-Devices/vendor_xiaomi_olivewood.git" remote="github" revision="dot11" />
- <project path="kernel/xiaomi/sdm439" name="dotOS-Devices/kernel_xiaomi_olivewood.git" remote="github" revision="dot11" />
+ <project path="kernel/xiaomi/olivewood" name="dotOS-Devices/kernel_xiaomi_olivewood.git" remote="github" revision="dot11" />
  
 </manifest>
