@@ -11,7 +11,7 @@
 
 
  <!-- Kernels -->
-  <project path="kernel/xiaomi/olivewood" name="kernel_xiaomi_olivewood" remote="tree" revision="dot11"  clone-depth="1"/>
+  <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_olivewood" remote="tree" revision="dot11"  clone-depth="1"/>
 
  <!-- Device Trees -->
   <project path="device/xiaomi/olivewood" name="ASHISH11948/device_xiaomi_olivewood" remote="github" revision="dot11"/>
