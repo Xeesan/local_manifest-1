@@ -16,6 +16,7 @@
  <!-- Device Trees -->
   <project path="device/xiaomi/olives"         name="ASHISH11948/android_device_xiaomi_olives"         groups="device" remote="mi-sdm439"/>
   <project path="device/xiaomi/sdm439-common"  name="Ashish11948/android_device_xiaomi_sdm439-common"  groups="device" remote="mi-sdm439"/>     
+ 
  <!-- Vendor Trees -->
   <project path="vendor/xiaomi/olives"         name="proprietary_vendor_xiaomi_olives"         groups="device" remote="mi-sdm439"/>
                     
