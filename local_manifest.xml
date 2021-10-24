@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="mi-sdm439"
-           fetch="https://github.com/mi-sdm439"
-           revision="lineage-18.1" />
 
+<remote name="me" 
 
- <!-- Kernels -->
-  <project path="kernel/xiaomi/sdm439"         name="xiaomi-sdm439-devs/android_kernel_xiaomi_sdm439" remote="github" revision="a11/lineageos"/>
+        fetch="https://github.com/ASHISH11948" />
 
- <!-- Device Trees -->
-  <project path="device/xiaomi/olives"         name="ASHISH11948/android_device_xiaomi_olives"         groups="device" remote="mi-sdm439"/>
-  <project path="device/xiaomi/sdm439-common"  name="Ashish11948/android_device_xiaomi_sdm439-common"  groups="device" remote="mi-sdm439"/>     
+  <!-- Kernels -->
+  <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="me" revision="a11/main-kud-rb"  clone-depth="1" />
+   <!-- Device Trees -->
+  <project path="device/xiaomi/olivewood" name="android_device_xiaomi_olives" remote="me" revision="eleven"/>
+   <!-- Vendor Trees -->
+  <project path="vendor/xiaomi/olivewood"  name="proprietary_vendor_xiaomi_olives" remote="me" revision="test"/>
  
- <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/olives"         name="proprietary_vendor_xiaomi_olives"         groups="device" remote="mi-sdm439"/>
-                    
-</manifest>
+   <project path="device/xiaomi/sdm439-common"  name="android_device_xiaomi_sdm439-common"  remote="me" remote="eleven"/>
+
+  </manifest>
