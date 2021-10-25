@@ -6,12 +6,10 @@
         fetch="https://github.com/ASHISH11948" />
 
   <!-- Kernels -->
-  <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="me" revision="a11/main-kud-rb"  clone-depth="1" />
+  <project path="kernel/xiaomi/olivewood" name="kernel_xiaomi_olivewood" remote="me" revision="dot11"  clone-depth="1" />
    <!-- Device Trees -->
-  <project path="device/xiaomi/olivewood" name="android_device_xiaomi_olives" remote="me" revision="eleven"/>
+  <project path="device/xiaomi/olivewood" name="device_xiaomi_olivewood" remote="me" revision="dot11"/>
    <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/olivewood"  name="proprietary_vendor_xiaomi_olives" remote="me" revision="test"/>
- 
-   <project path="device/xiaomi/sdm439-common"  name="android_device_xiaomi_sdm439-common"  remote="me" remote="eleven"/>
+  <project path="vendor/xiaomi/olivewood"  name="vendor_xiaomi_olivewood" remote="me" revision="dot11"/>
 
   </manifest>
