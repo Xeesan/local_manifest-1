@@ -3,7 +3,7 @@
 
 <remote name="me" 
 
-        fetch="https://github.com/ASHISH11948" />
+        fetch="https://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@github.com/ASHISH11948" />
 
   <!-- Kernels -->
   <project path="kernel/xiaomi/olivewood" name="kernel_xiaomi_olivewood" remote="me" revision="dot11"  clone-depth="1" />
