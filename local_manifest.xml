@@ -8,7 +8,7 @@
   <!-- Kernels -->
   <project path="kernel/xiaomi/olivewood" name="android_kernel_xiaomi_sdm439" remote="me" revision="a11/main-kud-rb"  clone-depth="1" />
    <!-- Device Trees -->
-  <project path="device/xiaomi/olivewood" name="device_xiaomi_olivewood" remote="me" revision="dot11"/>
+  <project path="device/xiaomi/olivewood" name="device_xiaomi-olivewood" remote="me" revision="arrow-12"/>
    <!-- Vendor Trees -->
   <project path="vendor/xiaomi/olivewood"  name="vendor_xiaomi-olivewood" remote="me" revision="arrow-12"/>
 
