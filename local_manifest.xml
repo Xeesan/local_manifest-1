@@ -6,7 +6,7 @@
         fetch="https://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@github.com/ASHISH11948" />
 
   <!-- Kernels -->
-  <project path="kernel/xiaomi/olivewood" name="kernel_xiaomi_olivewood" remote="me" revision="dot11"  clone-depth="1" />
+  <project path="kernel/xiaomi/olivewood" name="android_kernel_xiaomi_sdm439" remote="me" revision="a11/main-kud-rb"  clone-depth="1" />
    <!-- Device Trees -->
   <project path="device/xiaomi/olivewood" name="device_xiaomi_olivewood" remote="me" revision="dot11"/>
    <!-- Vendor Trees -->
