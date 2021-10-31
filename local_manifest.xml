@@ -4,6 +4,10 @@
 <remote name="me" 
 
         fetch="https://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@github.com/ASHISH11948" />
+        
+<remote name="shield44"
+        
+        fetch="git clone https://github.com/shield44-project/arrow_hardwade_qcom-caf-msm8996-R hardware/qcom-caf/msm8996-R" />
 
   <!-- Kernels -->
   <project path="kernel/xiaomi/olivewood" name="android_kernel_xiaomi_sdm439" remote="me" revision="a11/main-kud-rb"  clone-depth="1" />
