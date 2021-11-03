@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote name="shield44"
-        fetch="git clone https://gitlab.com/shield44/vendor_xiaomi_olivewood.git vendor/xiaomi/olivewood" />
+
+        <fetch="git clone https://gitlab.com/shield44/vendor_xiaomi_olivewood.git vendor/xiaomi/olivewood" />
 
 <remote name="me"                                                            
         fetch="https://github.com/ASHISH11948" />
