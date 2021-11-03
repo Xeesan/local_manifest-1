@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-
-        <fetch="git clone https://gitlab.com/shield44/vendor_xiaomi_olivewood.git vendor/xiaomi/olivewood" />
+          
+        <remote name="shield44" 
+        fetch="https://gitlab.com/shield44" />
+        
 
 <remote name="me"                                                            
         fetch="https://github.com/ASHISH11948" />
@@ -11,5 +12,6 @@
   <project path="kernel/xiaomi/olivewood" name="kernel_xiaomi_olivewood" remote="me" revision="dot11"  clone-depth="1" />
    <!-- Device Trees -->
   <project path="device/xiaomi/olivewood" name="device_xiaomi-olivewood-1" remote="me" revision="dot11"/>
-
+   <!-- Vendor -->
+  <project path="vendor/xiaomi/olivewood" name="vendor_xiaomi_olivewood" remote="shield44" revision="eleven" />
   </manifest>
