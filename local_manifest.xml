@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    
-    <remote name="me" 
-    
-            fetch="https://github.com/ASHISH11948" />
-    
-    <!-- Device repos -->
-    <project path="device/xiaomi/olives" name="device_xiaomi_olives" remote="me" revision="arrow-12.0" clone-depth="1" />
-    <project path="device/xiaomi/sdm439-common" name="device_xiaomi_sdm439-common" remote="me" revision="12.0" clone-depth="1" />
-    <project path="vendor/xiaomi/olives" name="vendor_xiaomi_olives" remote="me" revision="12.0" clone-depth="1" />
-    <project path="vendor/xiaomi/sdm439-common" name="vendor_xiaomi_sdm439-common" remote="me" revision="12.0" clone-depth="1" />
-    <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="me" revision="a11/main-kud-rb" clone-depth="1" />
 
-</manifest>
+<remote name="shield44"
+        fetch="git clone https://gitlab.com/shield44/vendor_xiaomi_olivewood.git vendor/xiaomi/olivewood" />
+
+<remote name="me"                                                            
+        fetch="https://github.com/ASHISH11948" />
+
+  <!-- Kernels -->
+  <project path="kernel/xiaomi/olivewood" name="kernel_xiaomi_olivewood" remote="me" revision="dot11"  clone-depth="1" />
+   <!-- Device Trees -->
+  <project path="device/xiaomi/olivewood" name="device_xiaomi-olivewood-1" remote="me" revision="dot11"/>
+
+  </manifest>
