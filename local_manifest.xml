@@ -14,4 +14,12 @@
   <project path="device/xiaomi/olivewood" name="device_xiaomi-olivewood-1" remote="me" revision="main"/>
    <!-- Vendor -->
   <project path="vendor/xiaomi/olivewood" name="vendor_xiaomi_olivewood" remote="shield44" revision="eleven" />
-  </manifest>
+   <!-- Hals -->
+  <remove-project name="platform_hardware_qcom_display" />
+  <remove-project name="platform_hardware_qcom_audio" />
+  <remove-project name="platform_hardware_qcom_media" />
+  <project path="hardware/qcom-caf/msm8996-R/display" name="aex-tmp/platform_hardware_qcom_display" remote="github" revision="12.x-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996-R/audio" name="aex-tmp/platform_hardware_qcom_audio" remote="github" revision="12.x-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996-R/media" name="aex-tmp/platform_hardware_qcom_media" remote="github" revision="12.x-caf-msm8996" />
+
+</manifest>
